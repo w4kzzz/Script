@@ -1,4 +1,4 @@
-local TweenService = game:GetService("TweenService")
+ilocal TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -36,7 +36,7 @@ title.BackgroundTransparency = 1
 local desc = Instance.new("TextLabel", mainFrame)
 desc.Size = UDim2.new(1, -40, 0, 50)
 desc.Position = UDim2.new(0, 20, 0, 60)
-desc.Text = "This window will launch Nytherune Hub."
+desc.Text = "esse painel foi modificado por w4kz mas o script é do nethyrune"
 desc.TextColor3 = Color3.fromRGB(180, 180, 180)
 desc.Font = Enum.Font.Gotham
 desc.TextWrapped = true
